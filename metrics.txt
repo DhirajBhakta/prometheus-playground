@@ -1,0 +1,6 @@
+http_requests_total{instance="service-a-01", job="service-a", method="GET", status_code="200"} 8
+http_requests_total{instance="service-a-01", job="service-a", method="GET", status_code="500"} 2
+http_requests_total{instance="service-a-01", job="service-a", method="POST", status_code="200"} 7
+http_requests_total{instance="service-a-01", job="service-a", method="POST", status_code="500"} 1 
+test_metric{instance="service-a-01", job="service-a", method="POST", status_code="500"} 1 
+actions_total{instance="service-a-01", job="service-a"} 18
